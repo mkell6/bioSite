@@ -1,0 +1,14 @@
+/* Marissa Lee */
+/* Landing Page */
+
+h1 {
+	color: #A85134;
+	font-size: 40px;
+	font-family: 'Bitter', serif;
+	text-align: center;}
+
+#image1 img, #image2 img, #image3 img {
+	max-width: 500px;
+	max-height: 300px;
+	float: left;
+	margin: 40px;}
