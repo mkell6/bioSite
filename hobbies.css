@@ -1,26 +1,42 @@
 /* Marissa Lee */
 /* Hobbies Page */
 
+html {
+	background-color: #eedad7;}
+
 h1 {
 	color: #A85134;
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'Bitter', serif;
-	text-align: center;}
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 4px;
+	text-shadow: 2px 2px 4pc rgba(0, 0, 0, 0.5;)}
 
 #image-gallery {
-	display:grid;
-	margin-top: 10%;
-	grid-template-columns: auto auto auto;}
+	display: grid;
+	margin-top: 2%;
+	grid-template-columns: auto auto auto;
+	justify-content: center;}
 
 
 #image1 img, #image2 img, #image3 img {
-	max-width: 300px;
-	max-height: 500px;
+	width: 300px;
+	height: auto;
 	float: center;
-	margin: 40px;}
+	margin: 40px;
+	border: 4px solid #42342f;
+	border-radius: 5px;}
 
 h2 {
-	color: #A85134;
+	color: #42342f;
 	font-size: 20px;
 	font-family: 'Bitter', serif;
 	text-align: center;}
+
+#link {
+	text-align: center;
+	font-size: 18px}
+
+#link a:visited {
+	color: #754a3c;}
